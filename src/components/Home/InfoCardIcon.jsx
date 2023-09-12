@@ -6,8 +6,14 @@ import {
     Button,
 } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
+import { PropTypes }  from "prop-types"
 
 export const InfoCardIcon = ({Icon}) => {
+
+    InfoCardIcon.propTypes = {
+        Icon: PropTypes.node.isRequired
+    }
+
 
     return (
         <Card className="mt-6 w-auto">

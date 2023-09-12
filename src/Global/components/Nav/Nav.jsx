@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect, useState } from "react";
 import {
     Navbar,
     Typography,
@@ -10,9 +10,9 @@ import { Link } from "react-router-dom";
 import { NavButton } from "./NavButton";
 
 export const Nav = () => {
-    const [openNav, setOpenNav] = React.useState(false);
+    const [openNav, setOpenNav] = useState(false);
 
-    React.useEffect(() => {
+    useEffect(() => {
         window.addEventListener(
         "resize",
         () => window.innerWidth >= 960 && setOpenNav(false)

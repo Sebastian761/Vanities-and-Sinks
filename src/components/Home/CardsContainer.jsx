@@ -11,8 +11,8 @@ export const CardsContainer = () => {
 
     return (
     <>
-        <div className="relative h-80 bg-red-400">
-            <div className="w-[90vw] hidden m-auto relative bg-white top-[-30%] shadow-xl tablet:grid gap-4 grid-cols-1 md:grid-cols-1 xl:grid-cols-3">
+        <div className="h-96 lg:h-80 hidden tablet:block">
+            <div className="w-[95vw] hidden m-auto relative bg-white top-[-30%] shadow-xl tablet:grid gap-4 grid-cols-1 md:grid-cols-1 xl:grid-cols-3">
                 <ServiceCardIcon   Icon={ConstructionIcon } />
                 <BuyCardIcon  Icon={CountertopsIcon}/>
                 <InfoCardIcon  Icon={SpaIcon}/>

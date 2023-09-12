@@ -3,7 +3,7 @@ import { Typography, Button } from "@material-tailwind/react";
 export const Banner = () => {
     return (
     <div className="w-full">
-        <div className="relative h-[760px] w-full">
+        <div className="relative h-[620px] tablet:h-[760px] w-full">
             <img
             src="https://images.unsplash.com/photo-1609879937493-56540300d8cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1925&q=80"
             alt="image 1"
