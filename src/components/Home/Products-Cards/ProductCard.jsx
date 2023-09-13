@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { DataContext } from "../../Global/Context/DataContext";
+import { DataContext } from "../../../Global/Context/DataContext";
 
 export const ProductCard = () => {
     const { data } = useContext(DataContext);
@@ -16,7 +16,7 @@ export const ProductCard = () => {
             />
 
             <div className="relative p-4 sm:p-6 lg:p-8">
-                <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
+                <p className="text-sm font-medium uppercase font-semibold tracking-widest text-gray-200">
                 {product.category}
                 </p>
 

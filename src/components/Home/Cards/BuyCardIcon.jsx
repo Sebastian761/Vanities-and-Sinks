@@ -15,7 +15,7 @@ export const BuyCardIcon = ({Icon}) => {
     }
 
     return (
-        <Card className="mt-6 w-auto">
+        <Card className="mt-6 w-auto shadow-none">
             <CardBody>
                 { Icon && <Icon sx={{ fontSize: 50 }} className='mb-4'/>}
 

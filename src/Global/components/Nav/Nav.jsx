@@ -25,7 +25,7 @@ export const Nav = () => {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="p-1 font-normal"
+                className="p-1 font-semibold"
             >
                 <Link to='/services' className="flex items-center">
                     Services
@@ -35,7 +35,7 @@ export const Nav = () => {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="p-1 font-normal"
+                className="p-1 font-semibold"
             >
                 <Link to='/about' className="flex items-center">
                     About Us
@@ -45,7 +45,7 @@ export const Nav = () => {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="p-1 font-normal"
+                className="p-1 font-semibold"
             >
                 <Link to='/contact' className="flex items-center">
                     Contact
@@ -56,7 +56,7 @@ export const Nav = () => {
 
   return (
     <div className=" max-h-[768px] w-full">
-        <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
+        <Navbar className="fixed top-0 z-40 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
             <div className="flex items-center justify-between text-blue-gray-900">
                 <Typography
                     as="a"

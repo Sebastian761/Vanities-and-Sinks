@@ -8,27 +8,27 @@ import {
 import { Link } from "react-router-dom";
 import { PropTypes }  from "prop-types"
 
-export const ServiceCardIcon = ({Icon}) => {
+export const InfoCardIcon = ({Icon}) => {
 
-    
-    ServiceCardIcon.propTypes = {
+    InfoCardIcon.propTypes = {
         Icon: PropTypes.node.isRequired
     }
 
+
     return (
-        <Card className="mt-6 w-auto">
+        <Card className="mt-6 w-auto shadow-none">
             <CardBody>
                 { Icon && <Icon sx={{ fontSize: 50 }} className='mb-4'/>}
 
                 <Typography variant="h5" color="blue-gray" className="mb-2">
-                Our Services: Beyond the purchase
+                About Us: Passion for Quality and Design
                 </Typography>
                 <Typography>
-                At sinks and vanities, we are committed to providing you with much more than exceptional products. Our services go beyond the purchase, offering personalized advice and professional installation.
+                At the heart of $company name$ you will find a team passionate about quality and design. With years of experience in the industry, we are committed to offering the best products for your bathroom.
                 </Typography>
             </CardBody>
             <CardFooter className="pt-0">
-                <Link to='/services' className="inline-block">
+                <Link to='/about' className="inline-block">
                     <Button size="sm" variant="text" className="flex items-center gap-2">
                         Learn More
                         <svg
