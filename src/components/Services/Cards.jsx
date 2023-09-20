@@ -10,11 +10,11 @@ export const Cards = () => {
 
                 <div className="bg-white p-4 sm:p-6">
 
-                    <p>
+                    <div>
                     <h3 className="mt-0.5 text-lg text-gray-900">
                         Luxury in every detail
                     </h3>
-                    </p>
+                    </div>
 
                     <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
                         Add a touch of luxury to your bathroom with our high quality sinks. From design choice to delivery to your door, we are here for you.
@@ -30,11 +30,11 @@ export const Cards = () => {
 
                 <div className="bg-white p-4 sm:p-6">
 
-                    <p>
+                    <div>
                     <h3 className="mt-0.5 text-lg text-gray-900">
                         Custom Styled Vanities in Your Style
                     </h3>
-                    </p>
+                    </div>
 
                     <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
                         Explore our range of vanities and discover how we can help you design the bathroom of your dreams. Expert services, custom design, your perfect bathroom awaits!
@@ -50,11 +50,11 @@ export const Cards = () => {
 
                 <div className="bg-white p-4 sm:p-6">
 
-                    <p>
+                    <div>
                     <h3 className="mt-0.5 text-lg text-gray-900">
                         Worry-Free Installation
                     </h3>
-                    </p>
+                    </div>
 
                     <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
                         Leave the installation to the professionals. Our team makes sure everything is ready, so you can enjoy your new vanity or sink without worry.
