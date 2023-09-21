@@ -7,6 +7,8 @@ module.exports = withMT({
   theme: {
     screens: {
       'tablet': '1140px',
+      'xltablet': '1300px', 
+      'laptop': '1700px'  
     },
     extend: {
       color: {

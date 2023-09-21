@@ -12,11 +12,11 @@ export const Info = () => {
                         <PlumbingIcon   sx={{ fontSize:30 }}/>
                     </span>
 
-                    <p>
+                    <div>
                         <h3 className="mt-2 text-lg font-medium text-gray-900">
                         Professional Sink Installation Service
                         </h3>
-                    </p>
+                    </div>
 
                     <p className="mt-3 line-clamp-3 text-sm/relaxed text-gray-700">
                         Our team of highly trained technicians will take care of your sink installation quickly and efficiently. We guarantee that your new sink will be properly installed and working perfectly.
@@ -28,11 +28,11 @@ export const Info = () => {
                         <DeliveryDiningIcon   sx={{ fontSize:30 }}/>
                     </span>
 
-                    <p>
+                    <div>
                         <h3 className="mt-2 text-lg font-medium text-gray-900">
                         Fast and Secure Delivery Service
                         </h3>
-                    </p>
+                    </div>
 
                     <p className="mt-3 line-clamp-3 text-sm/relaxed text-gray-700">
                         We are proud to offer a fast and reliable delivery service. Your chosen sink or vanity will be carefully packed and delivered to your door in the shortest possible time. We make sure your purchase arrives in perfect condition, ready for installation. 
@@ -44,11 +44,11 @@ export const Info = () => {
                         <CountertopsIcon   sx={{ fontSize:30 }}/>
                     </span>
 
-                    <p>
+                    <div>
                         <h3 className="mt-2 text-lg font-medium text-gray-900">
                             Custom Bathroom Design Consulting
                         </h3>
-                    </p>
+                    </div>
 
                     <p className="mt-3 line-clamp-3 text-sm/relaxed text-gray-700">
                         Need help designing your ideal bathroom? We will guide you through the process, helping you select the sinks and vanities that best suit your needs and tastes, transforming your bathroom into a beautiful and functional space!
