@@ -18,12 +18,11 @@ export const Info = () => {
                 <div className="gap-32 w-full laptop:w-auto py-8 px-4 lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 ">
                     <div className="sm:text-lg w-[80vw] lg:w-[70vw] flex flex-col md:flex-row laptop:block laptop:w-96 m-auto lg:ml-[30%] md:gap-8">
                         <div>
-                            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-darkBlue dark:text-white">
-                            Underlay Laminate Flooring Service & Wooden Floors
+                            <h2 className="mb-4 text-4xl tracking-tight font-bold text-darkBlue dark:text-white">
+                            Elegance and Functionality in Every Sink
                             </h2>
                             <p className="mb-4 font-semibold text-darkBlue text-lg">
-                            We are committed to making your floor look its best and for you to
-                            be completely satisfied with our service.
+                            At /store name/, we believe that design is fundamental to elevate the aesthetics and comfort of your space.
                             </p>
                         </div>
                         <div className="mt-8 flex gap-8 flex-col md:ml-12 laptop:ml-0">
@@ -31,11 +30,9 @@ export const Info = () => {
                             
                                 <div className=" text-gray-700">
                                     <h4 className="font-semibold text-darkBlue text-lg">
-                                        FAST RELIABLE SERVICE
+                                    Vanguard Style
                                     </h4>
-                                    <p>
-                                        Experience our fast and reliable service. We are here to
-                                        exceed your expectations and deliver results in record time
+                                    <p>Our sinks stand out for their avant-garde style, adding a modern and sophisticated touch to any bathroom.
                                     </p>
                                 </div>
                                 {/* <GrPaint size={70} className="ml-2" color="" /> */}
@@ -46,11 +43,10 @@ export const Info = () => {
                             
                                 <div className=" text-gray-700">
                                     <h4 className="font-semibold text-darkBlue text-lg">
-                                        FAST RELIABLE SERVICE
+                                    Guaranteed Durability
                                     </h4>
                                     <p>
-                                        Experience our fast and reliable service. We are here to
-                                        exceed your expectations and deliver results in record time
+                                    Constructed with high quality materials and advanced techniques, our sinks guarantee long-term strength and exceptional durability.
                                     </p>
                                 </div>
                                 {/* <GrPaint size={70} className="ml-2" color="" /> */}

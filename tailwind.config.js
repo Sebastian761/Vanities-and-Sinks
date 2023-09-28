@@ -15,7 +15,8 @@ module.exports = withMT({
         'beige': '#FCF8EC',
         'lightBlue': '#D0E8F2',
         'cyan': '#79A3B1',
-        'darkCyan': '#456268'
+        'darkCyan': '#456268',
+        'BgBlue': '#eaf5f9'
       }
     },
   },
