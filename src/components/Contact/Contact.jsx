@@ -5,8 +5,6 @@ import { Form } from "./Form";
 export const Contact = () => {
     const [open, setOpen] = useState(1);
     const handleOpen = (value) => setOpen(open === value ? 0 : value);
-
-
     
     return (
         <>
@@ -16,9 +14,9 @@ export const Contact = () => {
                 </aside>
                 <Form />
             </div>
-            <div className='relative h-[840px] md:h-[1020px] xl:h-[560px] laptop:h-[460px]'>
+            <div className='relative md:h-[1020px] xl:h-[560px] laptop:h-[460px]'>
             <div className=" px-10 flex flex-col xl:flex-row-reverse w-full m-auto h-full">
-                <div className="px-8 md:px-32 pt-16 mx-auto xl:my-auto xl:pt-0">
+                <div className="px-8 md:px-32 pt-10 md:pt-16 mx-auto xl:my-auto xl:pt-0">
                     <p className="font-bold text-sm uppercase mb-0.5">Services</p>
                     <p className="text-3xl font-bold mb-2">Frequently Asked Question</p>
                     <Accordion open={open === 1}>
@@ -44,7 +42,7 @@ export const Contact = () => {
                         </AccordionBody>
                     </Accordion>
                 </div>
-                <img alt="furniture" src="https://images.unsplash.com/photo-1595515422824-a17acde1b915?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" className="lg:p-10 w-full md:w-[85%] xl:w-[50%] xl:h-[75%] m-auto laptop:h-full"/>
+                <img alt="furniture" src="https://images.unsplash.com/photo-1595515422824-a17acde1b915?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" className="lg:p-10 w-full md:w-[85%] xl:w-[50%] xl:h-[75%] m-auto laptop:h-full my-10"/>
             </div>  
         </div>
         </>
