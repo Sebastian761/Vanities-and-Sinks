@@ -42,7 +42,7 @@ export const Contact = () => {
                         </AccordionBody>
                     </Accordion>
                 </div>
-                <img alt="furniture" src="https://images.unsplash.com/photo-1595515422824-a17acde1b915?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" className="lg:p-10 w-full md:w-[85%] xl:w-[50%] xl:h-[75%] m-auto laptop:h-full my-10"/>
+                <img alt="furniture" src="https://images.unsplash.com/photo-1595515422824-a17acde1b915?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" className="lg:p-10 w-full md:w-[85%] xl:w-[50%] xl:h-[75%] my-10 md:my-0 m-auto laptop:h-full"/>
             </div>  
         </div>
         </>
