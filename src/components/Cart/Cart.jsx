@@ -1,6 +1,10 @@
+import { NavWithCart } from "../../Global/components/Nav/NavWithCart"
 
 export const Cart = () => {
     return (
-        <div>Cart</div>
+        <>
+            <NavWithCart />
+            <div>Cart</div>
+        </>
     )
 }

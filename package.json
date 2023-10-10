@@ -17,6 +17,7 @@
     "@mui/icons-material": "^5.14.8",
     "@mui/material": "^5.14.8",
     "@nextui-org/react": "^2.1.10",
+    "@tailwindcss/line-clamp": "^0.4.4",
     "axios": "^1.5.0",
     "flowbite": "^1.8.1",
     "flowbite-react": "^0.5.0",

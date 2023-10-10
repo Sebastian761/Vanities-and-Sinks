@@ -1,5 +1,6 @@
 /* eslint-disable no-undef */
 // tailwind.config.js
+
 const withMT = require("@material-tailwind/react/utils/withMT");
 
 module.exports = withMT({
@@ -20,5 +21,6 @@ module.exports = withMT({
       }
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 });

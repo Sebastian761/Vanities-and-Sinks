@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Accordion, AccordionHeader, AccordionBody } from "@material-tailwind/react";
 import { Form } from "./Form";
+import { Nav } from "../../Global/components/Nav/Nav"
 
 export const Contact = () => {
     const [open, setOpen] = useState(1);
@@ -8,6 +9,7 @@ export const Contact = () => {
     
     return (
         <>
+           <Nav />
             <div className="lg:grid lg:min-h-screen lg:grid-cols-12 bg-gradient-to-b from-white from-30% to-BgBlue">
                 <aside className="relative block h-16 lg:order-last lg:col-span-5 lg:h-full xl:col-span-6 min min-h-[300px] hover:min-h-[500px] transition-all duration-1 ease-in">
                     <img alt="furniture" src="https://images.unsplash.com/photo-1531125227120-bac862d2aeb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80" className="absolute inset-0 h-[95%] w-full object-cover "/>
