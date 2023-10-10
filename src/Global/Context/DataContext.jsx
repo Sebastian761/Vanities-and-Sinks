@@ -11,6 +11,7 @@ export const DataProvider = ({ children }) => {
     }
 
     const [data, setData] = useState([]);
+    const [cart, setCart] = useState([]);
 
     useEffect(() => {
         axios("/src/Global/Data/Data.json")
@@ -18,7 +19,7 @@ export const DataProvider = ({ children }) => {
     }, [])
 
     return (
-        <DataContext.Provider value={{ data }}>
+        <DataContext.Provider value={{ data, cart, setCart }}>
                 { children }
         </DataContext.Provider>
     )

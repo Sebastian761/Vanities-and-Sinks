@@ -55,7 +55,7 @@ export const Nav = () => {
     );
 
   return (
-    <div className=" max-h-[768px] w-full">
+    <div className=" max-h-[768px] w-full sticky top-0 z-40">
         <Navbar className="bg-gray-800/75 z-40 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4 border-none">
             <div className="flex items-center justify-between text-blue-gray-900">
                 <Link

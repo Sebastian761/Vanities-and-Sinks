@@ -3,7 +3,12 @@ import { DataContext } from "../../Global/Context/DataContext"
 import { Button, Card, CardBody, CardFooter, CardHeader, Typography } from "@material-tailwind/react";
 
 export const ProductsCards = () => {
-    const { data } = useContext(DataContext)
+    const { data, cart, setCart } = useContext(DataContext)
+
+    const AddProducts = (product) => {
+        setCart([...cart, product])
+    }
+
     return data.map((product) => {
         return (
             <Card className="w-96" key={product.id}>
@@ -34,6 +39,7 @@ export const ProductsCards = () => {
                 </CardBody>
                 <CardFooter className="pt-0">
                     <Button
+                    onClick={()=> AddProducts(product)}
                     ripple={false}
                     fullWidth={true}
                     className="bg-blue-gray-900/10 text-blue-gray-900 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100"
