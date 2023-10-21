@@ -5,10 +5,10 @@ import axios from "axios";
 export const DataContext = createContext();
 
 export const DataProvider = ({ children }) => {
-    
+
     DataProvider.propTypes = {
-        children: PropTypes.node.isRequired
-    }
+        children: PropTypes.func.isRequired,
+    };
 
     const [data, setData] = useState([]);
     const [cart, setCart] = useState([]);

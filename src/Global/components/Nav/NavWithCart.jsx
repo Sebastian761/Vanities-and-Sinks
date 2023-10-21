@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import {
     Navbar,
     Typography,
@@ -7,6 +6,9 @@ import {
     Collapse,
 } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
+import { CartIconBadge } from "./CartIconBadge";
+
+
 
 export const NavWithCart = () => {
 
@@ -18,6 +20,7 @@ export const NavWithCart = () => {
         () => window.innerWidth >= 960 && setOpenNav(false)
         );
     }, []);
+
 
     const navList = (
         <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
@@ -67,12 +70,7 @@ export const NavWithCart = () => {
                     </Link>
                     <div className="flex items-center gap-4">
                         <div className="hidden lg:block">{navList}</div>
-                        <div>
-                            <Link to="/cart" className="mx-4 flex gap-2 text-white">
-                                <ShoppingCartOutlinedIcon/>
-                                <p>Cart</p>
-                            </Link>
-                        </div>
+                        <CartIconBadge />
                         <IconButton
                         variant="text"
                         className="ml-auto h-6 w-6 text-white hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
