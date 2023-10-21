@@ -18,8 +18,20 @@ export const DataProvider = ({ children }) => {
         .then((res) => setData(res.data))
     }, [])
 
+    const AddProducts = (product) => {
+        const productRepeat = cart.find((item) => item.id === product.id)
+        if (productRepeat) {
+            setCart(cart.map((item) => item.id === product.id 
+            ? {...product, quanty: productRepeat.quanty + 1}
+            : item
+            ))
+        } else {
+            setCart([...cart, product])
+        }
+    }
+
     return (
-        <DataContext.Provider value={{ data, cart, setCart }}>
+        <DataContext.Provider value={{ data, cart, setCart, AddProducts }}>
                 { children }
         </DataContext.Provider>
     )

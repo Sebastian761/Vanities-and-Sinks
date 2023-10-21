@@ -3,12 +3,7 @@ import { DataContext } from "../../Global/Context/DataContext"
 import { Button, Card, CardBody, CardFooter, CardHeader, Typography } from "@material-tailwind/react";
 
 export const ProductsCards = () => {
-    const { data, cart, setCart } = useContext(DataContext)
-
-    const AddProducts = (product) => {
-        setCart([...cart, product])
-    }
-
+    const { data, AddProducts } = useContext(DataContext)
     return data.map((product) => {
         return (
             <Card className="w-96" key={product.id}>

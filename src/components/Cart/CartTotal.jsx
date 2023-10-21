@@ -5,7 +5,7 @@ export const CartTotal = () => {
 
     const { cart } = useContext(DataContext)
 
-    const total = cart.reduce((acc, prod) => acc + prod.price, 0)
+    const total = cart.reduce((acc, prod) => acc + prod.price * prod.quanty, 0)
 
     return (
         <div className="mt-8 flex justify-end border-t border-gray-100 pt-8">
